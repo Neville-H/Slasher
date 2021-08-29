@@ -1,0 +1,19 @@
+{
+  "name": "slasher",
+  "version": "1.0.0",
+  "description": "Discord bot using discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neville-H/Slasher.git"
+  },
+  "author": "Neville Hiramanek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neville-H/Slasher/issues"
+  },
+  "homepage": "https://github.com/Neville-H/Slasher#readme"
+}
