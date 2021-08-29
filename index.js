@@ -19,7 +19,7 @@ client.on('interactionCreate', async interaction => {
   const { commandName } = interaction;
 
   if (commandName === 'ping') {
-    await interaction.reply('Pong!');
+    await interaction.reply(`Pong! This command took ${(Date.now() - interaction.createdTimestamp)/1000} seconds to execute.`);
   } else if (commandName === 'server') {
     await interaction.reply(`Server name: ${interaction.guild.name}\nTotal Members: ${interaction.guild.memberCount}`);
   } else if (commandName === 'user') {
