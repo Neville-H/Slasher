@@ -1,3 +1,5 @@
+// Heroku Version
+
 // Require the necessary discord.js classes
 const { Client, Intents } = require('discord.js');
 const { token } = require('./config.json');
